@@ -8,7 +8,7 @@
 </head>
 <body>
 	<script>
-		fetch('https://api.ipify.org/?format=json').then(results => results.json()).then(data => document.write(data));
+		fetch('https://api.ipify.org/?format=json').then(results => results.json()).then(data => document.write(data.toString()));
 	</script>
 </body>
 </html>
