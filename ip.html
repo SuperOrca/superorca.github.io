@@ -7,8 +7,19 @@
 	<title>Document</title>
 </head>
 <body>
+
+	<p>take L bad</p>
+	
 	<script>
-		fetch('https://api.ipify.org/?format=json').then(results => results.json()).then(data => document.write(data.toString()));
+		function fetchData(url) {
+			var resp = fetch(url);
+			return resp.json();
+		}
+
+		window.onload = (event) => {
+			var data = fetchData('http://www.geoplugin.net/json.gp');
+			document.write(JSON.stringify(data));
+		}
 	</script>
 </body>
 </html>
