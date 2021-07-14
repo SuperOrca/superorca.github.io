@@ -2,3 +2,20 @@ theme: jekyll-theme-cayman
 title: SuperOrca
 description: A python, java, javascript, and web developer.
 author: SuperOrca
+
+navbar-links:
+  Home: ""
+  Resources:
+    - ""
+
+avatar: "/assets/img/avatar.png"
+round-avatar: true
+
+social-network-links:
+  github: SuperOrca
+  youtube: channel/UCuymowIoXlB8rtB3UzP5hPw
+
+rss-description: test
+
+markdown: kramdown
+highlighter: rouge
