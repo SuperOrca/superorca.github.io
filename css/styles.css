@@ -1,13 +1,7 @@
 body {
     background-color: #35363a;
-    color: white;
 }
 
-a, span {
-    color: white;
+span {
     padding: 10px;
-}
-
-a:hover {
-    color: yellow;
 }
