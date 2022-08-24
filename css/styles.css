@@ -5,3 +5,7 @@ body {
 span {
     padding: 10px;
 }
+
+p {
+    color: rgba(255, 255, 255, .75) !important;
+}
