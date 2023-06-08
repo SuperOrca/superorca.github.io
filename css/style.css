@@ -5,7 +5,7 @@ body {
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    min-height: 100vh;
     background-image: url("../assets/background.png");
     background-size: cover;
     background-position: center;
@@ -41,7 +41,7 @@ li {
 li:not(:last-child)::after {
     content: " • ";
     padding: 5px;
-    color: darkgray
+    color: darkgray;
 }
 
 .icons {
@@ -59,4 +59,24 @@ p {
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 600px) {
+    .content {
+        margin-top: 100px;
+    }
+
+    h1 {
+        font-size: 80px;
+    }
+
+    li {
+        font-size: 16px;
+        margin-right: 5px;
+    }
+
+    p {
+        font-size: 14px;
+    }
 }
